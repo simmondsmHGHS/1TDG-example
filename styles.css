@@ -15,9 +15,16 @@ body {
 
 h1 {
   color: #0d407f;
+  text-align: center;
+  text-shadow: 1px 1px white;
+  font-weight: 1000;
+  font-size: xx-large;
 }
 
-
+p {
+  /*I want some padding around the text so that it is not too close to the edges*/
+  padding: 2%;
+}
 
 /*styles for the nav bar */
 
@@ -35,6 +42,7 @@ list-style-type: none;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: large;
 }
 
 .nav-bar li a:hover {
@@ -55,6 +63,7 @@ img {
 
 .container img {
   width: 50%;
+  padding: 1%;
 }
 
 .creations-container {
