@@ -1,10 +1,31 @@
+/* Notes
+
+Colour palette:
+red: #9a1115
+Gold: #e8bc6d
+Blue: #0d407f
+
+*/
+
+/* Page and text styling - These only need to be in the one place as they will be reused across the whole website */
+
+body {
+  background-color: #e8bc6d;
+}
+
+h1 {
+  color: #0d407f;
+}
+
+
+
 /*styles for the nav bar */
 
 .nav-bar ul {
 list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #9a1115;
   display: flex;
 }
 
@@ -26,6 +47,7 @@ img {
     width: 100%;
 }
 
+/* flexbox and styles for images inside of flexbox*/
 .container {
   display: flex;
   flex-direction: row;
@@ -36,6 +58,7 @@ img {
 }
 
 .creations-container {
+  /* Because of how the creations page is a different set up to the rest of the pages, it needs it's own container for flexbox*/
   display: flex;
   flex-direction: row;
 }
