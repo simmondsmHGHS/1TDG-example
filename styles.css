@@ -25,3 +25,17 @@ list-style-type: none;
 img {
     width: 100%;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container img {
+  width: 50%;
+}
+
+.creations-container {
+  display: flex;
+  flex-direction: row;
+}
