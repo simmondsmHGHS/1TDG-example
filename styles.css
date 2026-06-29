@@ -59,6 +59,7 @@ img {
 .container {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
 
 .container img {
@@ -66,6 +67,9 @@ img {
   padding: 1%;
 }
 
+.text{
+  width: 50%;
+}
 .creations-container {
   /* Because of how the creations page is a different set up to the rest of the pages, it needs it's own container for flexbox*/
   display: flex;
