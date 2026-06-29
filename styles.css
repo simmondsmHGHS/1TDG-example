@@ -26,6 +26,10 @@ p {
   padding: 2%;
 }
 
+.home p {
+  text-align: center;
+}
+
 /*styles for the nav bar */
 
 .nav-bar ul {
