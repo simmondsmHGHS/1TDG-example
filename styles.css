@@ -33,7 +33,7 @@ p {
 /*styles for the nav bar */
 
 .nav-bar ul {
-list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #9a1115;
@@ -56,7 +56,7 @@ list-style-type: none;
 /* styles for images and pages*/
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 /* flexbox and styles for images inside of flexbox*/
@@ -71,11 +71,26 @@ img {
   padding: 1%;
 }
 
-.text{
+.text {
   width: 50%;
 }
+
 .creations-container {
   /* Because of how the creations page is a different set up to the rest of the pages, it needs it's own container for flexbox*/
   display: flex;
   flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+}
+
+.image-div {
+  flex: 0 0 calc(33.333% - 10px); 
+  
+}
+
+.image-div img {
+  aspect-ratio: 1 / 1;
+  /* Forces all images into a perfect square */
+  object-fit: cover;
+  max-width: 100%;
 }
