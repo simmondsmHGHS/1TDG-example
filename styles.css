@@ -85,7 +85,7 @@ img {
 
 .image-div {
   flex: 0 0 calc(33.333% - 10px); 
-  
+  text-align: center;
 }
 
 .image-div img {
@@ -93,4 +93,10 @@ img {
   /* Forces all images into a perfect square */
   object-fit: cover;
   max-width: 100%;
+}
+
+.image-div p {
+  padding: 0%;
+  margin: 0%;
+  
 }
