@@ -19,11 +19,13 @@ h1 {
   text-shadow: 1px 1px white;
   font-weight: 1000;
   font-size: xx-large;
+  font-family: Georgia, Times, serif;
 }
 
 p {
   /*I want some padding around the text so that it is not too close to the edges*/
   padding: 2%;
+  font-size: large;
 }
 
 .home p {
@@ -59,6 +61,13 @@ img {
   width: 100%;
 }
 
+/* styles for the list in about*/
+.text li {
+  padding: 1%;
+  font-size: large;
+}
+
+
 /* flexbox and styles for images inside of flexbox*/
 .container {
   display: flex;
@@ -81,11 +90,14 @@ img {
   flex-direction: row;
   gap: 10px;
   padding: 10px;
+  padding-right: 30px;
 }
 
 .image-div {
   flex: 0 0 calc(33.333% - 10px); 
   text-align: center;
+  border: 5px solid #0d407f;
+  border-style: outset;
 }
 
 .image-div img {
@@ -98,5 +110,8 @@ img {
 .image-div p {
   padding: 0%;
   margin: 0%;
-  
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: medium;
+  font-weight: 600;
 }
