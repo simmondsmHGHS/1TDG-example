@@ -128,3 +128,32 @@ img {
   font-size: medium;
   font-weight: 600;
 }
+
+/* style for ruleset image*/
+
+.ruleset-image-div {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ruleset-image-div img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ruleset-image-div p {
+  margin: 0%;
+  padding: 1%;
+}
+
+.ruleset-text {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+}
+
+.ruleset-text p {
+  padding-top: 1%;
+  padding-bottom: 0px;
+  margin: 0%;
+}
