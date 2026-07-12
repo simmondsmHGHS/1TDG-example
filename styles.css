@@ -137,8 +137,9 @@ img {
   margin-right: auto;
 }
 .ruleset-image-div img {
-  margin-left: auto;
-  margin-right: auto;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .ruleset-image-div p {
