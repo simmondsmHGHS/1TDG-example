@@ -67,6 +67,19 @@ img {
   font-size: large;
 }
 
+.text span {
+  font-size: medium;
+  font-weight: 600;
+}
+
+
+/* styles for text in homepage */
+.home p {
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+  padding: 0%;
+}
 
 /* flexbox and styles for images inside of flexbox*/
 .container {
