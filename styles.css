@@ -17,9 +17,16 @@ h1 {
   color: #0d407f;
   text-align: center;
   text-shadow: 1px 1px white;
-  font-weight: 1000;
-  font-size: xx-large;
-  font-family: Georgia, Times, serif;
+   font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 p {
