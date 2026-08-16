@@ -17,17 +17,18 @@ h1 {
   color: #0d407f;
   text-align: center;
   text-shadow: 1px 1px white;
-   font-family: "UnifrakturMaguntia", cursive;
+   font-family: "Manufacturing Consent", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
-.unifrakturmaguntia-regular {
-  font-family: "UnifrakturMaguntia", cursive;
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
   font-weight: 400;
   font-style: normal;
 }
+
 
 p {
   /*I want some padding around the text so that it is not too close to the edges*/
